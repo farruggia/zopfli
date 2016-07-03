@@ -31,7 +31,7 @@ ones that enhance it.
 #include <stdlib.h>
 
 #include "lz77.h"
-#include "zopfli.h"
+#include <zopfli.h>
 
 
 /*

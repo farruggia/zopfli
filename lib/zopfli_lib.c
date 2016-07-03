@@ -17,7 +17,7 @@ Author: lode.vandevenne@gmail.com (Lode Vandevenne)
 Author: jyrki.alakuijala@gmail.com (Jyrki Alakuijala)
 */
 
-#include "zopfli.h"
+#include <zopfli.h>
 
 #include "deflate.h"
 #include "gzip_container.h"

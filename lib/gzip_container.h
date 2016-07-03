@@ -24,7 +24,7 @@ Author: jyrki.alakuijala@gmail.com (Jyrki Alakuijala)
 Functions to compress according to the Gzip specification.
 */
 
-#include "zopfli.h"
+#include <zopfli.h>
 
 #ifdef __cplusplus
 extern "C" {

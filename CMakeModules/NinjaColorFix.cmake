@@ -1,0 +1,5 @@
+if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang" AND CMAKE_GENERATOR STREQUAL "Ninja")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fcolor-diagnostics")
+elseif (CMAKE_CXX_COMPILER_ID STREQUAL "GNU" AND CMAKE_GENERATOR STREQUAL "Ninja")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fdiagnostics-color=always")
+endif()
