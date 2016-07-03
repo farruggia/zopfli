@@ -25,4 +25,4 @@ include_directories("${PROJECT_SOURCE_DIR}/include/zopfli")
 
 # Library
 file(GLOB libraries lib/*.c*)
-add_library(${CMAKE_PROJECT_NAME} ${libraries})
+add_library(${PROJECT_NAME} ${libraries})
